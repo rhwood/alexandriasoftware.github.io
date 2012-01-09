@@ -2,11 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.alexandriasoftware.com
+title: Alexandria Software
+subtitle: Small things for iOS and OS X
+author: Alexandria Software
 simple_search: http://google.com/search
+#simple_search: http://www.google.com/cse/home?cx=011933108432220168167:8hgwbbg_z4m
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -47,8 +48,8 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-# blog_index_asides:
-# post_asides:
+blog_index_asides: [asides/recent_posts.html, custom/asides/archive.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+post_asides: [asides/recent_posts.html, custom/asides/archive.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 # page_asides:
 
 # ----------------------- #
@@ -62,7 +63,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: alexandriasw
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -91,7 +92,11 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-22813598-1
    
 # Facebook Like
 facebook_like: true   
+
+# Category Generator
+category_dir: blog/categories
+category_title_prefix: "Category: "
