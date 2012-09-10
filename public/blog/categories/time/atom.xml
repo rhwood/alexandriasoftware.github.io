@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alexandria Software]]></title>
-  <link href="http://blog.alexandriasoftware.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Time | Alexandria Software]]></title>
+  <link href="http://blog.alexandriasoftware.com/blog/categories/time/atom.xml" rel="self"/>
   <link href="http://blog.alexandriasoftware.com/"/>
   <updated>2012-09-10T05:49:19-04:00</updated>
   <id>http://blog.alexandriasoftware.com/</id>
@@ -18,28 +18,17 @@
     <link href="http://blog.alexandriasoftware.com/blog/2012/09/10/doing-time-1-dot-4/"/>
     <updated>2012-09-10T05:19:00-04:00</updated>
     <id>http://blog.alexandriasoftware.com/blog/2012/09/10/doing-time-1-dot-4</id>
-    <content type="html"><![CDATA[<p><a href="http://blog.alexandriasoftware.com/doing-time">Doing Time</a> version 1.4 is now <a href="http://axsw.co/gdZJa6">available on the App Store</a>.</p>
+    <content type="html"><![CDATA[<p><a href="/doing-time">Doing Time</a> version 1.4 is now <a href="http://axsw.co/gdZJa6">available on the App Store</a>.</p>
 
 <p>This update includes the following changes:</p>
 
 <ul>
-<li><strong>A new application icon.</strong> <img class="right no-border" src="http://blog.alexandriasoftware.com/images/doing-time-app-icon.png"> In this release, I simplified a number of things under the hood, as well as some preferences, and so I made the application icon cleaner to reflect this as well.</li>
+<li><strong>A new application icon.</strong> <img class="right no-border" src="/images/doing-time-app-icon.png"> In this release, I simplified a number of things under the hood, as well as some preferences, and so I made the application icon cleaner to reflect this as well.</li>
 <li><strong>Simpler preferences.</strong> <em>Doing Time</em> is a daily counter. I had a complex preference item that allowed the user to set the time (down to five minute increments) that Today would be considered over in <em>Doing Time</em>. I have replaced that with a per-event setting to treat Today as either a completed day or a remaining day in the event being tracked. This also made the date calculations significantly simpler under the hood.</li>
 <li><strong>Aggressively redraw events.</strong> <em>Doing Time</em> now takes additional steps to ensure that events are redrawn more frequently, with the added benefit that <em>Doing Time</em> should now be a better-behaving background app and use less memory when another app is in use.</li>
 <li><strong>Refactored code.</strong> I rewrote the date calculations mechanism to reduce a lot of complexity, and removed everything that was not being used.</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Delays]]></title>
-    <link href="http://blog.alexandriasoftware.com/blog/2011/12/09/delays/"/>
-    <updated>2011-12-09T06:10:00-05:00</updated>
-    <id>http://blog.alexandriasoftware.com/blog/2011/12/09/delays</id>
-    <content type="html"><![CDATA[<p>I recently returned from a deployment in Afghanistan, and simply readjusting to life back in the United States has been time consuming&#8230;</p>
-
-<p>There&#8217;s also an update to <a href="http://www.axsw.co/doing-time" title="Doing Time">Doing Time</a> in the works with some new features and other internal improvements. I hope to be getting that out in January as well.</p>
 ]]></content>
   </entry>
   
