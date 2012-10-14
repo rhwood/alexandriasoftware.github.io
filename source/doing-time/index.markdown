@@ -12,4 +12,4 @@ Doing Time is a simple visualization of the progress towards completing a multi-
 
 This app for iPhone and iPod is inspired by the Deployment Donut spreadsheet that military members and families keep.
 
-[{% img no-border /images/appstore.png 210 90 'Available on the App Store' 'Available on the App Store' %}](http://axsw.co/gdZJa6 "Available on the App Store")
+[{% img no-border /images/appstore.png 163 49 'Available on the App Store' 'Available on the App Store' %}](http://axsw.co/gdZJa6 "Available on the App Store")
