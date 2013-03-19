@@ -20,3 +20,7 @@ gem 'sinatra', '~> 1.3.5'
 
 gem 'thin'
 gem 'newrelic_rpm'
+
+group :production do
+  require 'newrelic_rpm'
+end
