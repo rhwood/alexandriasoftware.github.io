@@ -18,7 +18,5 @@ end
 
 gem 'sinatra', '~> 1.3.5'
 
-configure :production do
-  gem 'thin'
-  gem 'newrelic_rpm'
-end
+gem 'thin'
+gem 'newrelic_rpm'
