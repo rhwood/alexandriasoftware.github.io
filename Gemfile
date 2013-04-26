@@ -2,7 +2,7 @@ source "http://rubygems.org"
 ruby "1.9.3"
 
 gem 'rake', '~> 0.9'
-gem 'rack', '~> 1.4.1'
+gem 'rack', '~> 1.5.2'
 gem 'jekyll', '~> 0.12'
 gem 'rdiscount', '~> 1.6.8'
 gem 'pygments.rb', '~> 0.3.4'
@@ -15,11 +15,11 @@ gem 'rb-fsevent', '~> 0.9'
 gem 'stringex', '~> 1.4.0'
 gem 'liquid', '~> 2.3.0'
 
-gem 'sinatra', '~> 1.3.5'
-
 gem 'thin'
 gem 'newrelic_rpm'
 
 group :development do
   gem 'rb-fsevent', '~> 0.9'
 end
+
+gem 'sinatra', '~> 1.4.2'

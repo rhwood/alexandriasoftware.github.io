@@ -3,7 +3,7 @@ layout: post
 title: "Doing Time Version 1.4 Released"
 date: 2012-09-10 05:19
 comments: false
-categories: Doing Time
+categories: [Doing Time]
 ---
 [Doing Time](/doing-time) version 1.4 is now [available on the App Store](http://axsw.co/gdZJa6).
 
