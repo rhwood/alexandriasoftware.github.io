@@ -5,7 +5,7 @@ date: 2013-04-25 07:15
 comments: true
 categories: [Doing Time]
 ---
-{% img right no-border /images/doing-time-app-icon.png %}[Doing Time](/doing-time) version 1.4 is now [available on the App Store](http://axsw.co/gdZJa6).
+{% img right no-border /images/doing-time-app-icon.png %}[Doing Time](/doing-time) version 1.5 is now [available on the App Store](http://axsw.co/gdZJa6).
 
 This update includes the following changes:
 
