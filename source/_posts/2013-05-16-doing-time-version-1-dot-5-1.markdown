@@ -10,6 +10,7 @@ categories: [Doing Time]
 This update introduces support for URL schemes to open Doing Time. The URL to open Doing Time is `doing-time-app://`
 
 Applications that can open Doing Time include:
+
 - [Launch Center Pro](http://axsw.co/106wtG1)
 - [CocoPPa](http://axsw.co/12DfXvJ)
 - and many others...
