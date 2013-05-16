@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Doing Time | Alexandria Software]]></title>
   <link href="http://blog.alexandriasoftware.com/blog/categories/doing-time/atom.xml" rel="self"/>
   <link href="http://blog.alexandriasoftware.com/"/>
-  <updated>2013-04-26T05:29:23-04:00</updated>
+  <updated>2013-05-16T06:28:46-04:00</updated>
   <id>http://blog.alexandriasoftware.com/</id>
   <author>
     <name><![CDATA[Alexandria Software]]></name>
@@ -14,11 +14,31 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Doing Time Version 1.5.1]]></title>
+    <link href="http://blog.alexandriasoftware.com/blog/2013/05/16/doing-time-version-1-dot-5-1/"/>
+    <updated>2013-05-16T05:56:00-04:00</updated>
+    <id>http://blog.alexandriasoftware.com/blog/2013/05/16/doing-time-version-1-dot-5-1</id>
+    <content type="html"><![CDATA[<p><img class="right no-border" src="/images/doing-time-app-icon.png"><a href="/doing-time">Doing Time</a> version 1.5.1 is now <a href="http://axsw.co/gdZJa6">available on the App Store</a>.</p>
+
+<p>This update introduces support for URL schemes to open Doing Time. The URL to open Doing Time is <code>doing-time-app://</code></p>
+
+<p>Applications that can open Doing Time include:</p>
+
+<ul>
+<li><a href="http://axsw.co/106wtG1">Launch Center Pro</a></li>
+<li><a href="http://axsw.co/12DfXvJ">CocoPPa</a></li>
+<li>and many others...</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Doing Time Version 1.5]]></title>
     <link href="http://blog.alexandriasoftware.com/blog/2013/04/25/doing-time-version-1-dot-5/"/>
     <updated>2013-04-25T07:15:00-04:00</updated>
     <id>http://blog.alexandriasoftware.com/blog/2013/04/25/doing-time-version-1-dot-5</id>
-    <content type="html"><![CDATA[<p><img class="right no-border" src="/images/doing-time-app-icon.png"><a href="/doing-time">Doing Time</a> version 1.4 is now <a href="http://axsw.co/gdZJa6">available on the App Store</a>.</p>
+    <content type="html"><![CDATA[<p><img class="right no-border" src="/images/doing-time-app-icon.png"><a href="/doing-time">Doing Time</a> version 1.5 is now <a href="http://axsw.co/gdZJa6">available on the App Store</a>.</p>
 
 <p>This update includes the following changes:</p>
 
