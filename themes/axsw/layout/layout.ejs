@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- partial('_partial/head') %>
+  <body>
+    <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+    <main role="main">
+      <%- body %>
+    </main>
+    <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/late-loading-scripts', null, {cache: !config.relative_link}) %>
+  </body>
+</html>

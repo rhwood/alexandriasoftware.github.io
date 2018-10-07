@@ -1,0 +1,21 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <% page.posts.each(function(post, i) { %>
+      <% var liClass = i == 0 ? 'class="active"' : '' %>
+      <li data-target="#myCarousel" data-slide-to="<%= i %>" <%= liClass %>></li>
+    <% }) %>
+  </ol>
+  <div class="carousel-inner">
+    <% page.posts.each(function(post, i) { %>
+      <%- partial('carousel-item', {post: post, count: i}) %>
+    <% }) %>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="fas fa-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="fas fa-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

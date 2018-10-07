@@ -1,0 +1,30 @@
+<% var activeItem = count == 0 ? "active" : "" %>
+<% var background = post.url_image ? "style=\"background: url(" + post.url_image + ") no-repeat center center fixed; background-size: cover;\"" : "" %>
+<div class="carousel-item <%= activeItem %>" <%- background %>>
+  <div class="container">
+    <div class="carousel-caption">
+      <article id="carousel-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+        <div class="article-inner rounded" <% if (post.url_image) { %> style="background-color: rgba(90, 90, 90, .6)" <% } %>>
+          <%- partial('post/gallery') %>
+          <% if (post.link || post.title) { %>
+            <header class="article-header">
+              <%- partial('post/title', {class_name: 'article-title'}) %>
+            </header>
+          <% } %>
+          <div class="article-entry" itemprop="articleBody">
+            <% if (post.excerpt && index) { %>
+              <%- post.excerpt %>
+              <% if (theme.excerpt_link) { %>
+                <p class="article-more-link">
+                  <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+                </p>
+              <% } %>
+            <% } else { %>
+              <%- post.content %>
+            <% } %>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
