@@ -81,3 +81,4 @@ theme: axsw
 deploy:
   type: git
   repo: https://github.com/rhwood/alexandriasoftware.github.io.git
+  branch: gh-pages
