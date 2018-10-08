@@ -1,6 +1,5 @@
 <% var activeItem = count == 0 ? "active" : "" %>
-<% var background = post.url_image ? "style=\"background: url(" + post.url_image + ") no-repeat center center fixed; background-size: cover;\"" : "" %>
-<div class="carousel-item <%= activeItem %>" <%- background %>>
+<div class="carousel-item <%= activeItem %>" <% if (post.url_image) { %> style="background: url(<%- post.url_image %>) no-repeat center center fixed; background-size: cover;"<% } %>>
   <div class="container">
     <div class="carousel-caption">
       <article id="carousel-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
