@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://alexandriasoftware.com/"/>
-  <updated>2018-10-09T09:47:45.764Z</updated>
+  <updated>2018-10-10T10:55:43.906Z</updated>
   <id>http://alexandriasoftware.com/</id>
   
   <author>
@@ -17,20 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Second Article</title>
-    <link href="http://alexandriasoftware.com/2018/10/07/second-article/"/>
-    <id>http://alexandriasoftware.com/2018/10/07/second-article/</id>
-    <published>2018-10-07T13:48:27.000Z</published>
-    <updated>2018-10-09T09:47:45.764Z</updated>
+    <title>Announcing Hola</title>
+    <link href="http://alexandriasoftware.com/2018/09/08/announcing-hola/"/>
+    <id>http://alexandriasoftware.com/2018/09/08/announcing-hola/</id>
+    <published>2018-09-08T04:00:00.000Z</published>
+    <updated>2018-10-10T10:55:43.906Z</updated>
     
-    <content type="html"><![CDATA[<p>This is the opening for the article.<br><a id="more"></a><br>Hi!</p>]]></content>
+    <content type="html"><![CDATA[<p>Does your printer or other device on your Wi-Fi network have a web site?</p><p><em><a href="/hola">Hola</a></em> finds and displays all web sites on your Wi-Fi network, displaying them in-app or in Safari. <em>Hola</em> is a web browser for sites in a local Wi-Fi network advertised via the <a href="https://en.wikipedia.org/wiki/Bonjour_(software" target="_blank" rel="noopener">Bonjour</a>) (also called Zeroconf) protocol.</p><p>Respecting your privacy, <em>Hola</em> does not collect any information and is ad-free.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;This is the opening for the article.&lt;br&gt;
+      
+      
+        &lt;p&gt;Does your printer or other device on your Wi-Fi network have a web site?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;/hola&quot;&gt;Hola&lt;/a&gt;&lt;/em&gt; finds and displays all 
+      
     
     </summary>
     
+    
+      <category term="featured, hola, bonjour" scheme="http://alexandriasoftware.com/tags/featured-hola-bonjour/"/>
     
   </entry>
   

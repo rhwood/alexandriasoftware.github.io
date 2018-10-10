@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- partial('_partial/head') %>
-  <body>
+  <body <% if (page.url_image) { %> style="background: url(<%- page.url_image %>) no-repeat center center fixed; background-size: cover;"<% } %>>
     <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
     <main role="main">
       <%- body %>
