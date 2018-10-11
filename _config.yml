@@ -16,7 +16,7 @@ timezone: America/New_York
 url: http://alexandriasoftware.com
 image_server_url:
 root: /
-permalink: :year/:month/:day/:title/
+permalink: news/:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
