@@ -1,14 +1,20 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
+    <% var index = 0 %>
     <% page.posts.each(function(post, i) { %>
-      <% var liClass = i == 0 ? 'class="active"' : '' %>
-      <li data-target="#myCarousel" data-slide-to="<%= i %>" <%= liClass %>></li>
-    <% }) %>
+      <% if (post.categories.data[0].name === "Featured") { %>
+      <% var liClass = index == 0 ? 'class="active"' : '' %>
+      <li data-target="#myCarousel" data-slide-to="<%= index %>" <%= liClass %>></li>
+      <% index++ %>
+    <% }}) %>
   </ol>
   <div class="carousel-inner">
+    <% index = 0 %>
     <% page.posts.each(function(post, i) { %>
-      <%- partial('carousel-item', {post: post, count: i}) %>
-    <% }) %>
+      <% if (post.categories.data[0].name === "Featured") { %>
+      <%- partial('carousel-item', {post: post, count: index}) %>
+      <% index++ %>
+    <% }}) %>
   </div>
   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
     <span class="fas fa-chevron-left" aria-hidden="true"></span>
