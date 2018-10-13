@@ -3,7 +3,7 @@ title: Doing Time URL Scheme
 date: 2014-11-18
 ---
 
-_Doing Time_ can be used by other apps using a URL scheme.
+_[Doing Time](/doing-time)_ can be used by other apps using a URL scheme.
 
 Doing Time uses the URL scheme `doing-time-app:`
 
