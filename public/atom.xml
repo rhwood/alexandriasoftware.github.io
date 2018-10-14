@@ -73,4 +73,29 @@
     
   </entry>
   
+  <entry>
+    <title>No Longer Doing Time</title>
+    <link href="http://alexandriasoftware.com/news/2014/11/18/no-longer-doing-time/"/>
+    <id>http://alexandriasoftware.com/news/2014/11/18/no-longer-doing-time/</id>
+    <published>2014-11-18T05:00:00.000Z</published>
+    <updated>2018-10-14T10:51:04.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>I have come to the conclusion that I can either continue to maintain and support <em><a href="/doing-time">Doing Time</a></em> or I can continue to contribute to and support <em><a href="http://jmri.org" target="_blank" rel="noopener">JMRI</a></em>, an unrelated project I began supporting at about the same time as I initially wrote <em>Doing Time</em>. I have neither the time nor energy to work on both <em>Doing Time</em> and <em>JMRI</em>. Since I am significantly more emotionally and intellectually involved with <em>JMRI</em> than I am with <em>Doing Time</em>, I am ceasing to support <em>Doing Time</em>.</p><p>I recommend <a href="https://itunes.apple.com/us/app/t-zero-countdown-timer/id480487790?mt=8&amp;uo=4&amp;at=10l7iC" target="_blank" rel="noopener"><em>T-Zero Countdown Timer</em> by Dan Wensor</a> as a replacement for <em>Doing Time</em>.</p><p>What does this mean for <em>Doing Time</em>?</p><ul><li><em>Doing Time</em> will remain on the App Store through the end of 2014, and will be removed sometime in January 2015.</li><li>The source code for <em>Doing Time</em> is now <a href="https://github.com/rhwood/Doing-Time" target="_blank" rel="noopener">publicly available</a> on <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> under the MIT license.</li><li><em>Doing Time</em> support queries will no longer be answered.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I have come to the conclusion that I can either continue to maintain and support &lt;em&gt;&lt;a href=&quot;/doing-time&quot;&gt;Doing Time&lt;/a&gt;&lt;/em&gt; or I can c
+      
+    
+    </summary>
+    
+      <category term="Doing Time" scheme="http://alexandriasoftware.com/news/categories/Doing-Time/"/>
+    
+    
+      <category term="Doing Time" scheme="http://alexandriasoftware.com/news/tags/Doing-Time/"/>
+    
+  </entry>
+  
 </feed>
