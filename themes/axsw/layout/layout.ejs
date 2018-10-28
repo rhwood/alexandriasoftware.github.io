@@ -2,11 +2,11 @@
 <html lang="en">
   <%- partial('_partial/head') %>
   <body <% if (page.url_image) { %> style="background: url(<%- page.url_image %>) no-repeat center center fixed; background-size: cover;"<% } %>>
-    <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/header') %>
     <main role="main">
       <%- body %>
     </main>
     <%- partial('_partial/footer') %>
-    <%- partial('_partial/late-loading-scripts', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/late-loading-scripts') %>
   </body>
 </html>
