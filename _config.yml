@@ -13,7 +13,7 @@ timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://alexandriasoftware.com
+url: https://alexandriasoftware.com
 image_server_url:
 root: /
 permalink: news/:year/:month/:day/:title/
@@ -21,7 +21,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: docs
 tag_dir: news/tags
 archive_dir: news
 category_dir: news/categories
