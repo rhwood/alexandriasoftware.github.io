@@ -6,7 +6,7 @@
     <main role="main">
       <%- body %>
     </main>
-    <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/footer') %>
     <%- partial('_partial/late-loading-scripts', null, {cache: !config.relative_link}) %>
   </body>
 </html>
