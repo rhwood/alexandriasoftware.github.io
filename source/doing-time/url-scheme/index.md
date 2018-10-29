@@ -11,6 +11,6 @@ Currently Doing Time only supports being opened by other applications.
 
 Applications that can open Doing Time include:
 
--   [Launch Center Pro](http://axsw.co/106wtG1)
--   [CocoPPa](http://axsw.co/12DfXvJ)
+-   [Launch Center Pro](https://itunes.apple.com/app/id532016360)
+-   [CocoPPa](https://itunes.apple.com/us/app/cocoppa-japan-kawaii-cute/id533055738?mt=8&ign-mpt=uo%3D2)
 -   and many others...

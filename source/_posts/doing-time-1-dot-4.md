@@ -6,7 +6,7 @@ category:
 tags:
 - Doing Time
 ---
-[Doing Time](/doing-time) version 1.4 is now [available on the App Store](http://axsw.co/gdZJa6).
+[Doing Time](/doing-time) version 1.4 is now [available on the App Store](http://itunes.apple.com/us/app/doing-time/id416919186?mt=8&ls=1).
 
 This update includes the following changes:
 
