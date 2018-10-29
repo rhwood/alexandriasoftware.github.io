@@ -72,3 +72,18 @@ body {
     margin-top: 7rem;
   }
 }
+/* TAGS
+-------------------------------------------------- */
+ul.article-tag-list {
+  padding: 0;
+}
+ul.article-tag-list:before {
+  content: 'Tagged: ';
+}
+ul.article-tag-list > li {
+  display: inline;
+  padding-right: 1rem;
+}
+ul.article-tag-list > li > a:before {
+  content: '#';
+}
