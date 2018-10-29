@@ -1,8 +1,10 @@
 ---
 title: No Longer Doing Time
 date: 2014-11-18
-category: Doing Time
-tags: Doing Time
+category:
+- Doing Time
+tags:
+- Doing Time
 ---
 
 I have come to the conclusion that I can either continue to maintain and support _[Doing Time](/doing-time)_ or I can continue to contribute to and support _[JMRI](http://jmri.org)_, an unrelated project I began supporting at about the same time as I initially wrote _Doing Time_. I have neither the time nor energy to work on both _Doing Time_ and _JMRI_. Since I am significantly more emotionally and intellectually involved with _JMRI_ than I am with _Doing Time_, I am ceasing to support _Doing Time_.
