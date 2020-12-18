@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "eslint": "7.15.0",
-    "hexo": "5.2.0",
+    "hexo": "5.3.0",
     "hexo-cli": "4.2.0",
     "hexo-deployer-git": "2.1.0",
     "hexo-generator-archive": "1.0.0",
