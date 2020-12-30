@@ -1,0 +1,17 @@
+---
+# AXSW custom styles
+# Frontmatter is needed for Jekyll, even though not valid SCSS
+---
+
+@import "minima";
+
+.site-header {
+    background-color: #408000;
+}
+.site-header .site-title {
+    color: #fff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+}
