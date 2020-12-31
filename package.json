@@ -18,7 +18,7 @@
   "homepage": "https://github.com/rhwood/alexandriasoftware.github.io#readme",
   "private": true,
   "hexo": {
-    "version": "5.0.2"
+    "version": "5.3.0"
   },
   "dependencies": {
     "eslint": "7.16.0",
