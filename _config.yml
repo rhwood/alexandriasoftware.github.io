@@ -21,9 +21,9 @@
 title: Alexandria Software
 author: Randall Wood
 description: >- # this means to ignore newlines until "baseurl:"
-  Randall Wood, a maker of small things for iOS and macOS, does business as Alexandria Software
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Small things for iOS and macOS
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://alexandriasoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alexandriasw
 github_username:  rhwood
 
