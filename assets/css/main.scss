@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$axsw-green: #408000;
+$axsw-yellow: #ffff00;
+$background-color: #fff;
+$masthead-link-color: $background-color;
+$masthead-link-color-hover: $background-color;
+$navicon-link-color-hover: mix(#000, $axsw-green, 50%);
+
+.masthead, #site-nav {
+  background-color: $axsw-green;
+  .greedy-nav {
+    .hidden-links {
+        background-color: $axsw-green;
+    }
+    .visible-links {
+      a {
+        &:before {
+          background-color: $axsw-yellow
+        }
+      }
+    }
+  }
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.page__footer {
+  text-align: center;
+}
+
+.search__toggle {
+  color: $background-color;
+  &:focus, &:hover, &:active {
+    color: $axsw-yellow;
+  }
+}

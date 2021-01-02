@@ -51,6 +51,18 @@ defaults:
     values:
       layout: single
 
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/rhwood
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/alexandriasw
+    - label: Facebook
+      icon: fab fa-fw fa-facebook
+      url: http://www.facebook.com/563380909
+
 after_footer_scripts:
   - https://cdn.iubenda.com/iubenda.js
 
