@@ -2,7 +2,7 @@
 title: Announcing Roster Decoder
 date: 2016-12-06
 categories:
-- Featured
+- Roster Decoder
 tags:
 - Roster Decoder
 - JMRI

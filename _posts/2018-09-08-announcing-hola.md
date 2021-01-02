@@ -2,7 +2,7 @@
 title: Announcing Hola
 date: 2018-09-08
 categories:
-- Featured
+- Hola Browser
 tags:
 - Hola Browser
 - Bonjour
