@@ -1,7 +1,7 @@
 main:
   - title: News
     url: /news
-  - title: Hola
+  - title: Hola Browser
     url: /hola
     description: A Bonjour browser for iOS
   - title: About
