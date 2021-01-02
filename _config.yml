@@ -21,16 +21,16 @@
 title: Alexandria Software
 name: Randall Wood DBA Alexandria Software
 subtitle: Small things for iOS and macOS
-title_separator: "|"
+title_separator: |
 author: Randall Wood
 description: >- # this means to ignore newlines until "baseurl:"
   Small things for iOS and macOS
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://alexandriasoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://alexandriasoftware.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alexandriasw
 github_username:  rhwood
-minimal_mistakes_skin: "contrast"
-locale: "en-US"
+minimal_mistakes_skin: default
+locale: en-US
 breadcrumbs: true
 show_date: true
 search: true
@@ -74,12 +74,12 @@ after_footer_scripts:
   - https://cdn.iubenda.com/iubenda.js
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+remote_theme: mmistakes/minimal-mistakes@4.21.0
 plugins:
   - jekyll-feed
 
 include:
-  - "_pages"
+  - _pages
 
  # Exclude from processing.
 # The following items will not be processed, by default.
