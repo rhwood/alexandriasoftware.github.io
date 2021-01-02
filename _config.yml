@@ -51,6 +51,9 @@ defaults:
     values:
       layout: single
 
+after_footer_scripts:
+  - https://cdn.iubenda.com/iubenda.js
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 plugins:
