@@ -1,0 +1,10 @@
+main:
+  - title: News
+    url: /news
+  - title: Hola
+    url: /hola
+    description: A Bonjour browser for iOS
+  - title: About
+    url: /about
+  - title: Request Support
+    url: /support
