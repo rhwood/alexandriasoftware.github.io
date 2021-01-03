@@ -34,6 +34,7 @@ locale: en-US
 breadcrumbs: true
 show_date: true
 search: true
+logo: /assets/images/ASlogo1-128s.png
 
 defaults:
   # _posts
