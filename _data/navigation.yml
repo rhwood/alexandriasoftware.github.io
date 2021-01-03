@@ -1,0 +1,15 @@
+main:
+  - title: News
+    url: /news
+  - title: Hola Browser
+    url: /hola
+    description: A Bonjour browser for iOS
+  - title: About
+    url: /about
+  - title: Request Support
+    url: /support
+hola:
+  - title: Download on the App Store
+    url: https://itunes.apple.com/us/app/hola-browser/id1286639027?ls=1&mt=8
+  - title: Privacy Policy
+    url: /hola/privacy
