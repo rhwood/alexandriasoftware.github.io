@@ -69,3 +69,6 @@ typings/
 
 # Hexo transient data
 db.json*
+
+# macOS Finder artifacts
+.DS_Store
